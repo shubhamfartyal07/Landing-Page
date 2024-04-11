@@ -1,0 +1,92 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    /* background-color: rgb(9, 9, 9);
+    color: white; */
+}
+.section{
+}
+
+.section .upper{
+    display: flex;
+    align-items: flex-end;
+}
+#section1{
+
+    min-height: 80vh;
+    /* border: 3px solid red; */
+    background-image: url(img/img1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 111px 253px;
+    font-size: 55px;
+    color: wheat;
+    
+}
+
+#section2{
+    min-height: 41vh;
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    position: relative;
+}
+#section2 h1{
+    position: relative;
+    top: 6.5rem;
+}
+
+#section3{
+    display: flex;
+    height: 85vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#section3 .box{
+    width: 235px;
+    height: 333px;
+    /* border: 3px solid red; */
+    border-radius: 14px;
+    box-shadow: 3px 3px 5px black;
+}
+#section3 .box img{
+    width: 235px;
+    height: 185px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+#section4 {
+    display: flex;
+    
+}
+#section4 .box{
+    /* border: 3px solid red; */
+    /* border-radius: 7px; */
+    color: white;
+    width: 50vw;
+    height: 135px;
+}
+#section4  .left{
+   background-color: rgb(159, 159, 77);
+   padding: 55px 75px;
+}
+#section4  .right{
+   background-color: rgb(159, 129, 77);
+   padding: 55px 75px;
+}
+
+.footer{
+    min-height: 53px;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+}
+.footer h4{
+    position: relative;
+    top: .8rem;
+
+}
